@@ -1,0 +1,18 @@
+body {
+  background: url('https://cdn.discordapp.com/attachments/305126844661760000/413063511455957015/unknown.png') !important;
+}
+ 
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
