@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+ 
+  "name": "Josephify",
+  "version": "0.0.1",
+  "description": "Make the internet 100% more Joseph Banks.",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["*"]
+  }]
+ 
+}
