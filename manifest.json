@@ -4,6 +4,12 @@
   "name": "Josephify",
   "version": "0.0.1",
   "description": "Make the internet 100% more Joseph Banks.",
+
+  "icons": { "16": "media/joseph/icon.png",
+             "48": "media/joseph/icon.png",
+             "128": "media/joseph/icon.png" },
+  
+  "browser_action": {"default_icon": "media/joseph/icon.png"},
  
   "content_scripts": [{
     "css": ["styles.css"],
