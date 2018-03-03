@@ -1,5 +1,5 @@
 body {
-  background: url('chrome-extension://mmollkoehhjoknlfcchioklddkdggaem/media/joseph/background.png')
+  background: url('chrome-extension://__MSG_@@extension_id__/media/joseph/background.png')
   no-repeat center center fixed !important; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
