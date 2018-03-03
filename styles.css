@@ -1,7 +1,12 @@
 body {
-  background: url('https://cdn.discordapp.com/attachments/305126844661760000/413063511455957015/unknown.png') !important;
+  background: url('chrome-extension://pdhjmnojfjiehdeboebahjgohhibmjki/media/joseph/background.png')
+  no-repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
- 
+
 #masthead,
 #primary {
   -webkit-filter: invert(100%);
