@@ -9,3 +9,9 @@ if (document.title === "Google"){
     'background: url('+ googleURL +')'+
     ' no-repeat center center fixed !important';
 }
+else if (document.title.endsWith('Google Search')){
+    var smallLogo = document.getElementsByTagName('img')[0];
+    smallLogo.src = chrome.extension.getURL('media/joseph/google_small.png');
+    smallLogo.height = 75;
+    smallLogo.width = 125;
+}
