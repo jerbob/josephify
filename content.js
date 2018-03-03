@@ -1,7 +1,10 @@
-chrome.browserAction.setIcon({
-    path : "media/joseph/icon.png"
-});
-var images = document.getElementsByTagName('img');
-for (var i = 0, l = images.length; i < l; i++) {
-  images[i].src = 'https://cdn.discordapp.com/attachments/366673702533988363/419261314540765184/unknown.png';
+if (document.title === "Google"){
+    var inputBoxes = document.getElementsByTagName('input');
+    var googleLogo = document.getElementById('hplogo');
+    inputBoxes[7].value = 'Dank';
+    inputBoxes[8].value = 'Memes';
+    googleLogo.remove();
+    document.body.style.cssText = 
+    'background: url(chrome-extension://pdhjmnojfjiehdeboebahjgohhibmjki/media/joseph/google.png)'+
+    ' no-repeat center center fixed !important';
 }

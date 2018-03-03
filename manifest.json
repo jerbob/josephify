@@ -2,7 +2,7 @@
   "manifest_version": 2,
  
   "name": "Josephify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Make the internet 100% more Joseph Banks.",
 
   "icons": { "16": "media/joseph/icon.png",
