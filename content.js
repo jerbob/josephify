@@ -1,4 +1,4 @@
-if (document.title === "Google"){
+if (document.title === "Google") {
     var inputBoxes = document.getElementsByTagName('input');
     var googleLogo = document.getElementById('hplogo');
     var googleURL = chrome.extension.getURL('media/joseph/google.png');
@@ -9,7 +9,7 @@ if (document.title === "Google"){
     'background: url('+ googleURL +')'+
     ' no-repeat center center fixed !important';
 }
-else if (document.title.endsWith('Google Search')){
+else if (document.title.endsWith('Google Search')) {
     var smallLogo = document.getElementsByTagName('img')[0];
     smallLogo.src = chrome.extension.getURL('media/joseph/google_small.png');
     smallLogo.height = 75;
